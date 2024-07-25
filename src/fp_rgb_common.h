@@ -36,7 +36,7 @@ uint8_t fp_rgb_get_element_from_hsv(uint8_t hue, uint8_t sat, uint8_t val, uint8
 
 #if defined(RGBLIGHT_ENABLE) || defined(RGB_MATRIX_ENABLE)
 #    ifndef FP_LAYER_LIGHTING_HUE_0
-#        define FP_LAYER_LIGHTING_HUE_0         
+#        define FP_LAYER_LIGHTING_HUE_0 HSV_BLUE
 #    endif // FP_LAYER_LIGHTING_HUE_0
 
 #    ifndef FP_LAYER_LIGHTING_HUE_1

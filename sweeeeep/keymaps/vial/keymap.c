@@ -1,4 +1,4 @@
-qqq#include QMK_KEYBOARD_H
+#include QMK_KEYBOARD_H
 
 
 // Defines names for use in layer keycodes and the keymap

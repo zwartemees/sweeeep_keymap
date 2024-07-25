@@ -2,8 +2,16 @@
 
 This is my [sweeeeep](https://github.com/sadekbaroudi/sweep36) config
 
-## how to use 
-compile by placing this project in qmk_firmware\keyboards after installing [qmk](https://qmk.fm/guide) and then run the command in qmk 
-````sh
-  make sweeeep_keymap/sweeeeep:zwartemees RGBLIGHT_ENABLE=yes -e CONVERT_TO=rp2040_ce
-````
+## how to use
+
+1. install [qmk](https://qmk.fm/guide)
+
+2. follow steps under vial firmware in [sweeeeep](https://github.com/sadekbaroudi/sweep36)
+
+3. replace src and sweeeeep in vial-qmk\keyboards\fingerpunch in the cloned repo from step 2 
+
+compile with command
+
+```sh
+  make fingerpunch/sweeeeep:zwartemees RGBLIGHT_ENABLE=yes -e CONVERT_TO=rp2040_ce
+```
