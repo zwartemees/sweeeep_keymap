@@ -15,3 +15,8 @@ compile with command
 ```sh
   make fingerpunch/sweeeeep:zwartemees RGBLIGHT_ENABLE=yes -e CONVERT_TO=rp2040_ce
 ```
+on nix
+```sh
+CC=arm-none-eabi-gcc make fingerpunch/sweeeeep:default CONVERT_TO=rp2040_ce RGBLIGHT_ENABLE=yes
+```
+
