@@ -3,20 +3,17 @@
 This is my [sweeeeep](https://github.com/sadekbaroudi/sweep36) config
 
 ## how to use
+### nixOS
 
+use the deploy.sh
+
+### not nix
 1. install [qmk](https://qmk.fm/guide)
-
-2. follow steps under vial firmware in [sweeeeep](https://github.com/sadekbaroudi/sweep36)
-
-3. replace src and sweeeeep in vial-qmk\keyboards\fingerpunch in the cloned repo from step 2 
-
-compile with command
+1. clone & move the files like indicated in deploy.sh
+1. build with the command below from qmk_firmware dir
+*tested only on windows* 
 
 ```sh
   make fingerpunch/sweeeeep:zwartemees RGBLIGHT_ENABLE=yes -e CONVERT_TO=rp2040_ce
-```
-on nix
-```sh
-CC=arm-none-eabi-gcc make fingerpunch/sweeeeep:default CONVERT_TO=rp2040_ce RGBLIGHT_ENABLE=yes
 ```
 
