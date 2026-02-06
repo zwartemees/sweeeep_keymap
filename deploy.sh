@@ -2,8 +2,8 @@
 git clone https://github.com/sadekbaroudi/qmk_firmware.git
 rm -rf qmk_firmware/keyboards/fingerpunch/src
 rm -rf qmk_firmware/keyboards/fingerpunch/sweeeeep
-mv src qmk_firmware/keyboards/fingerpunch
-mv sweeeeep qmk_firmware/keyboards/fingerpunch
+cp src qmk_firmware/keyboards/fingerpunch
+cp sweeeeep qmk_firmware/keyboards/fingerpunch
 
 cd qmk_firmware
 nix-shell
