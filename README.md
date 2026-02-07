@@ -1,4 +1,4 @@
-# sweeeep_keymap
+# sweep36_keymap
 
 This is my [sweeeeep](https://github.com/sadekbaroudi/sweep36) config
 
